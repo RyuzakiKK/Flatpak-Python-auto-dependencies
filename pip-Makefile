@@ -1,0 +1,9 @@
+all:
+    python2 setup.py build
+    #python3 setup.py build
+
+install:
+    mkdir -p /app/lib/python2.7/site-packages/
+    python2 setup.py install --prefix=/app
+    #mkdir -p /app/lib/python3.6/site-packages/
+    #python3 setup.py install --prefix=/app
