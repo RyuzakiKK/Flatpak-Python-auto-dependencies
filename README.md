@@ -14,7 +14,9 @@ For example:
 $ python3 flatpak_auto_pip.py automat
 ```
 
-You can also list multiple dependencies at ones:
+You can see the output of this command [here](example.output.json)
+
+It is also supported the listing of multiple dependencies at ones:
 ```
 $ python3 flatpak_auto_pip.py automat cffi
 ```
